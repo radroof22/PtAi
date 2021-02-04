@@ -5,7 +5,7 @@ port = 3000
 app.use(express.static('lib'))
 
 app.route("/", (req, res) => {
-    return res.sendFile("/home/rohan/Documents/PtAi/lib/index.html")
+    return res.sendFile("./lib/index.html")
 })
 
 app.listen(port, () => {

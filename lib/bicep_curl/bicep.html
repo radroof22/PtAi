@@ -16,9 +16,14 @@
 
 <body>
   <script src="bicep.js"></script>
-  <h1>Reps: <label id="reps">0</label></h1>
-  <div id="directions" class="alert alert-primary" role="alert">
-    Lower angle of elbow to count rep.
+  <h1>Type: <label id="armType">Right</label> | Reps: <label id="reps">0</label> | Angle: <label id="angle">N/A</label></h1>
+  <div id="directionsAlert" class="alert alert-warning" role="alert">
+    <h2 id="directionsText">Flex and decrease angle of elbow</h2>
+  </div>
+  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <button type="button" class="btn btn-primary btn-lg" onclick="changeTo('l')">Left</button>
+    <button type="button" class="btn btn-warning btn-lg" onclick="changeTo('b')">Both</button>
+    <button type="button" class="btn btn-danger btn-lg" onclick="changeTo('r')">Right</button>
   </div>
 </body>
 
