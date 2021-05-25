@@ -5,8 +5,12 @@ The inspiration for this project came out of the recent rise in tele-medicine an
 - 1st Place at Montgomery County Science Fair for Computer Science in 12th grade division
 - 3rd Place at Delaware Valley Science Fair for Computer Science in 12th grade division
 
+![Image of Bicep Curls using Pt.Ai](https://user-images.githubusercontent.com/23004551/119421930-d56dea00-bccd-11eb-9403-50926cb7993e.png)
+
+
 ## How to Run
 `npm install`
+
 `npm run develop`
 
 ## Goals
