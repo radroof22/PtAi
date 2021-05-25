@@ -1,6 +1,10 @@
 # PtAi
 The inspiration for this project came out of the recent rise in tele-medicine and doctors appointments hosted over the internet. As such, I wanted to see if there was a way to bring physical therapy to the online world to help people at home get the most out of their workouts. Current products already exist that allow users to track their joint movements as they do a series as exercises, though these solutions are often expensive. Instead, a machine learning technique would allow the users to just need their phone to complete their assigned workouts and gain assistance from the model. 
 
+## Awards
+- 1st Place at Montgomery County Science Fair for Computer Science in 12th grade division
+- 3rd Place at Delaware Valley Science Fair for Computer Science in 12th grade division
+
 ## How to Run
 `npm install`
 `npm run develop`
